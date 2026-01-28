@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    position: relative;
+    background-color: #0989B4;
+}
+
+.card {
+    overflow: hidden;
+    position: absolute;
+    width: 350px;
+    height: 374px;
+    background-color: #fff;
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.top-bg {
+    background-color: #41CBD3;
+    height: 144px;
+    position: relative;
+}
+
+.top-bg img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 96px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E3349;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.user-name span {
+    color: #6B7082;
+}
+
+.user-location {
+    text-align: center;
+    color: #6B7082;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.stats {
+    margin-top: 25px;
+    border-top: 1px solid #E8E9EC;
+    padding-top: 25px;
+}
+
+.stats-item {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.stats-item p:first-child {
+    font-size: 18px;
+    color: #2E3349;
+    font-weight: 700;
+}
+
+.stats-item p:last-child {
+    font-size: 10px;
+    color: #6B7082;
+    font-weight: 400;
+}
